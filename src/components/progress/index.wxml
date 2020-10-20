@@ -1,0 +1,6 @@
+<view class="progress">
+  <view>
+    <view class="item" wx:for="{{dataList}}" wx:key="index" style="background-color: {{item.color}};"></view>
+  </view>
+  <view>{{count.val}}</view>
+</view>

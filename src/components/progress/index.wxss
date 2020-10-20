@@ -1,0 +1,10 @@
+.progress {
+  margin: 20rpx;
+}
+.item {
+  width: 6rpx;
+  height: 50rpx;
+  border-radius: 5px;
+  margin-left: 6rpx;
+  display: inline-block;
+}

@@ -1,0 +1,93 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\liang\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python38\Scripts\;C:\Python38\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\liang\AppData\Local\Android\Sdk\platform-tools;C:\Users\liang\AppData\Local\Android\Sdk\emulator;C:\Users\liang\AppData\Local\Android\Sdk\tools;C:\Users\liang\AppData\Local\Android\Sdk\tools\bin;D:\anaconda;D:\anaconda\Scripts;C:\Users\liang\.windows-build-tools\python27\;C:\Users\liang\.windows-build-tools\python27\;C:\Users\liang\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;C:\Users\liang\AppData\Roaming\npm;C:\adb;C:\Program Files\Git\cmd;C:\Users\liang\.windows-build-tools\python27\;C:\Users\liang\.windows-build-tools\python27\;C:\Users\liang\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;C:\Users\liang\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  11.11.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\liang\AppData\Local\Yarn\Cache\v6\npm-memory-fs-0.4.1-3a9a20b8462523e447cfbc7e8bb80ed667bfc552-integrity\node_modules\memory-fs\.yarn-metadata.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at C:\Users\liang\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\liang\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\liang\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "taroFrame",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Taro react 版框架",
+    "templateInfo": {
+      "name": "default",
+      "typescript": true,
+      "css": "less"
+    },
+    "scripts": {
+      "build:weapp": "taro build --type weapp",
+      "build:swan": "taro build --type swan",
+      "build:alipay": "taro build --type alipay",
+      "build:tt": "taro build --type tt",
+      "build:h5": "taro build --type h5",
+      "build:rn": "taro build --type rn",
+      "build:qq": "taro build --type qq",
+      "build:jd": "taro build --type jd",
+      "build:quickapp": "taro build --type quickapp",
+      "dev:weapp": "npm run build:weapp -- --watch",
+      "dev:swan": "npm run build:swan -- --watch",
+      "dev:alipay": "npm run build:alipay -- --watch",
+      "dev:tt": "npm run build:tt -- --watch",
+      "dev:h5": "npm run build:h5 -- --watch",
+      "dev:rn": "npm run build:rn -- --watch",
+      "dev:qq": "npm run build:qq -- --watch",
+      "dev:jd": "npm run build:jd -- --watch",
+      "dev:quickapp": "npm run build:quickapp -- --watch"
+    },
+    "browserslist": [
+      "last 3 versions",
+      "Android >= 4.1",
+      "ios >= 8"
+    ],
+    "author": "",
+    "dependencies": {
+      "@babel/runtime": "^7.7.7",
+      "@tarojs/components": "3.0.5",
+      "@tarojs/runtime": "3.0.5",
+      "@tarojs/taro": "3.0.5",
+      "@tarojs/react": "3.0.5",
+      "react-dom": "^16.10.0",
+      "react": "^16.10.0"
+    },
+    "devDependencies": {
+      "@types/webpack-env": "^1.13.6",
+      "@types/react": "^16.0.0",
+      "@tarojs/mini-runner": "3.0.5",
+      "@babel/core": "^7.8.0",
+      "@tarojs/webpack-runner": "3.0.5",
+      "babel-preset-taro": "3.0.5",
+      "eslint-config-taro": "3.0.5",
+      "eslint": "^6.8.0",
+      "eslint-plugin-react": "^7.8.2",
+      "eslint-plugin-import": "^2.12.0",
+      "eslint-plugin-react-hooks": "^1.6.1",
+      "stylelint": "9.3.0",
+      "@typescript-eslint/parser": "^2.x",
+      "@typescript-eslint/eslint-plugin": "^2.x",
+      "typescript": "^3.7.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
